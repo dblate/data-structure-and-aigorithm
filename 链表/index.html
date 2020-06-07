@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>链表</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+    <script>
+        var cities = new LList();
+        cities.insert('Conway', 'head');
+        cities.insert('Russellville', 'Conway');
+        cities.insert('Alma', 'Conway');
+        cities.display();
+        console.log('new line -----');
+        cities.remove('Conway');
+        cities.display();
+    </script>
+</body>
+</html>
